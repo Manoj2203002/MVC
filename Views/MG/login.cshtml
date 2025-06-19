@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "login";
+}
+
+<h2>login</h2>
+<form method="post" action="/MG/Valid" >
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="Name" required /> <br />
+        <label class="form-label"> Password</label>
+        <input type="password" class="form-control" name="password" required /><br />
+        <button type="submit" class="btn btn-outline-primary">Login</button>
+        <p>or click here to <a href="/MG/Register">Sign_up</a> </p>
+    </div>
+</form>
+
